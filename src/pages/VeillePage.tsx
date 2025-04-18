@@ -57,7 +57,7 @@ const VeillePage: React.FC = () => {
 
   return (
     <div className="container mx-auto px-4 py-8" style={{ marginTop: '72px' }}>
-      <h2 className="text-3xl font-bold text-gray-800 mb-6">
+      <h2 className="text-3xl font-bold text-gray-800 mb-6 font-merriweather">
         Veille technologique - Intelligence Artificielle
       </h2>
 

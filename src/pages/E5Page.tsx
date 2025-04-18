@@ -6,11 +6,11 @@ import imgTP1 from "../assets/images/Logo-ad.png";
 import imgTP2 from "../assets/images/qu-est-ce-qu-apache.png";
 import imgTP3 from "../assets/images/logo-filtrage-acl.png";
 import imgTP4 from "../assets/images/GLPI_logo officiel.jpg";
-//import imgTP5 from "../assets/images/hsrp-logo.jpg"; // facultatif
+//import imgTP5 from "../assets/images/hsrp-logo.jpg";
 import imgTP6 from "../assets/images/lampos-logo.jpg";
 import imgTP7 from "../assets/images/nagios-xi-logo.jpeg";
 import imgTP8 from "../assets/images/nat-logo.jpg";
-//import imgTP9 from "../assets/images/ospf-rip-logo.jpg"; // facultatif
+//import imgTP9 from "../assets/images/ospf-rip-logo.jpg";
 import imgTP10 from "../assets/images/logo-pfsense.jpg";
 import imgTP11 from "../assets/images/vtp-logo.jpg";
 import imgTP12 from "../assets/images/logo-vlan.jpg";
@@ -40,7 +40,7 @@ const E5Page: React.FC = () => {
     {
       title: "TP5 - HSRP : Configuration de la redondance de passerelle",
       description: "Configuration du protocole HSRP pour assurer la haute disponibilité des passerelles dans un réseau.",
-      image: undefined
+      //image: imgTP5
     },
     {
       title: "TP6 - LAMP OS : Déploiement d'un serveur web complet",
@@ -60,7 +60,7 @@ const E5Page: React.FC = () => {
     {
       title: "TP9 - OSPF-RIP : Configuration des protocoles de routage",
       description: "Configuration des protocoles de routage OSPF et RIP pour optimiser les chemins de communication entre les réseaux.",
-      image: undefined
+      //image: imgTP9
     },
     {
       title: "TP10 - Pfsense LDAP : Intégration d'un pare-feu avec authentification centralisée",
@@ -80,7 +80,7 @@ const E5Page: React.FC = () => {
   ];
 
   return (
-    <div className="container mx-auto px-4 py-8" style={{ marginTop: '72px' }}>
+    <div className="container mx-auto px-4 py-8">
       <h2 className="text-3xl font-bold text-gray-800 mb-6">
         Épreuve E5
       </h2>
@@ -98,13 +98,11 @@ const E5Page: React.FC = () => {
                 Voir le TP
               </button>
             </div>
-            {tp.image && (
-              <img
-                src={tp.image}
-                alt={`Illustration de ${tp.title}`}
-                className="w-48 h-32 object-cover rounded-lg"
-              />
-            )}
+            <img
+              src={tp.image}
+              alt={`Illustration de ${tp.title}`}
+              className="w-48 h-32 object-cover rounded-lg"
+            />
           </div>
         ))}
       </div>

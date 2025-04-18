@@ -1,30 +1,30 @@
 import React from 'react';
-// Remarque: Vous devrez placer cette image dans le dossier assets/images
 import profileImage from "../assets/images/moi-alger.png";
+import MotifBerbere from '../assets/images/motifs/berbere-svg.svg'; // Importer votre fichier SVG
 
 const CVPage: React.FC = () => {
   const experiencesPro = [
     {
-      date: "Août 2023 - Novembre 2024",
+      date: "Août 2023 - Juillet 2025",
       titre: "Technicien support informatique",
       entreprise: "Capgemini, Paris",
-      description: "Assistance technique et résolution d'incidents via ServiceNow. Gestion des utilisateurs sur l'Active Directory. Installation des postes de travail et configuration. Maintenance OS : Déploiement de patches, dépannage hardware/software (MacOS, Windows) 20+ tickets/jour. Application stricte des politiques de sécurité et conseils aux utilisateurs.",
+      description: <a>Assistance technique et résolution d'incidents via ServiceNow. <br />
+      Gestion des utilisateurs sur l'Active Directory. <br />
+      Installation des postes de travail et configuration. <br />
+       Maintenance OS : Déploiement de patches, dépannage hardware/software (MacOS, Windows) 20+ tickets/jour. <br />
+       Application stricte des politiques de sécurité et conseils aux utilisateurs."</a>,
     },
     {
       date: "Juin 2021 - Août 2022",
       titre: "Commercial",
       entreprise: "STS Construction, Vincennes",
-      description: "Développement et fidélisation de la clientèle, Préparation des propositions, rédaction des devis. Gestion de projet IT en équipe.",
+      description: <a>Développement et fidélisation de la clientèle. <br />
+      Préparation des propositions, rédaction des devis. <br />
+      Gestion de projet IT en équipe.</a>,
     },
   ];
 
   const formations = [
-    {
-      date: "2025 - 2026",
-      titre: "Licence ASSR (Administration Systèmes et Sécurité des Réseaux)",
-      etablissement: "PSTB, Paris",
-      description: "Formation en administration des systèmes et sécurité des réseaux",
-    },
     {
       date: "2023 - 2025",
       titre: "BTS SIO SISR (Solutions d'Infrastructure, Systèmes et Réseaux)",
@@ -42,12 +42,12 @@ const CVPage: React.FC = () => {
   return (
     <div className="container mx-auto px-4 py-8 flex items-center justify-center flex-col" style={{ marginTop: '72px' }}>
       <div className="bg-white rounded-lg shadow-md p-10 mb-10">
-        <div className="grid md:grid-cols-2 gap-8 items-start">
+        <div className="grid md:grid-cols-2 gap-8 items-start relative">
           <div className="ml-10 mt-0 justify-center h-full w-full">
-            <h2 className="text-3xl font-bold text-gray-800 mb-4">
+            <h2 className="text-3xl font-bold text-gray-800 mb-10 font-merriweather">
               Qui suis-je ?
             </h2>
-            <p className="text-gray-600 leading-relaxed">
+            <p className="text-gray-600 leading-relaxed mr-20">
               Passionné d'informatique, je suis actuellement en BTS SIO option SISR, 
               en alternance, que j'ai effectué chez Capgemini en tant que technicien 
               support informatique. Cette expérience m'a permis de plonger dans le monde 
@@ -62,6 +62,7 @@ const CVPage: React.FC = () => {
               équilibre entre mon côté technique et créatif.
             </p>
           </div>
+
           <div className="flex items-center justify-center h-full w-full">
             <div>
             {<img
@@ -74,36 +75,55 @@ const CVPage: React.FC = () => {
         </div>
       </div>
 
-      {/* Expériences professionnelles */}
-      <div className="mb-12 w-1/2 mx-auto">
-        <h3 className="text-2xl font-semibold text-gray-700 mb-6 text-center">
-          Expériences professionnelles
-        </h3>
-        <div className="space-y-8">
-          {experiencesPro.map((exp, index) => (
-            <div
-              key={index}
-              className="relative pl-8 border-l-2 border-blue-500"
-            >
-              <div className="absolute w-4 h-4 bg-blue-500 rounded-full -left-[9px] top-0"></div>
-              <div className="mb-1 text-sm font-medium text-blue-600">
-                {exp.date}
-              </div>
-              <h4 className="text-lg font-semibold text-gray-800">
-                {exp.titre}
-              </h4>
-              <div className="text-gray-600 font-medium">
-                {exp.entreprise}
-              </div>
-              <p className="mt-2 text-gray-600">{exp.description}</p>
+      {/* Ajout de la Timeline */}
+      <div className="relative w-full mt-20">
+        <div className="timeline">
+          {/* Motif à gauche */}
+          <img 
+            src={MotifBerbere} 
+            alt="Motif berbère gauche" 
+            className="absolute left-0 bottom-0 transform translate-y-1/2 w-32 h-32 md:w-48 md:h-48" 
+          />
+
+          {/* Timeline - Expériences professionnelles */}
+          <div className="mb-12 w-2/3 mx-auto">
+            <h3 className="text-2xl font-semibold text-gray-700 mb-6 text-center font-merriweather">
+              Expériences professionnelles
+            </h3>
+            <div className="space-y-8">
+              {experiencesPro.map((exp, index) => (
+                <div
+                  key={index}
+                  className="relative pl-8 border-l-2 border-blue-500"
+                >
+                  <div className="absolute w-4 h-4 bg-blue-500 rounded-full -left-[9px] top-0"></div>
+                  <div className="mb-1 text-sm font-medium text-blue-600">
+                    {exp.date}
+                  </div>
+                  <h4 className="text-lg font-semibold text-gray-800">
+                    {exp.titre}
+                  </h4>
+                  <div className="text-gray-600 font-medium">
+                    {exp.entreprise}
+                  </div>
+                  <p className="mt-2 text-gray-600">{exp.description}</p>
+                </div>
+              ))}
             </div>
-          ))}
+          </div>
+
+          {/* Motif à droite */}
+          <img 
+            src={MotifBerbere} 
+            alt="Motif berbère droit" 
+            className="absolute right-0 bottom-0 transform translate-y-1/2 w-32 h-32 md:w-48 md:h-48" 
+          />
         </div>
       </div>
 
       {/* Formation */}
-      <div className="mb-12 w-1/2 mx-auto">
-        <h3 className="text-2xl font-semibold text-gray-700 mb-6 text-center">
+      <div className="mb-12 w-2/3 mx-auto">
+        <h3 className="text-2xl font-semibold text-gray-700 mb-6 text-center font-merriweather">
           Formation
         </h3>
         <div className="space-y-8">

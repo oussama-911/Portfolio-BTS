@@ -6,6 +6,8 @@ import E5Page from "./pages/E5Page";
 import E6Page from "./pages/E6Page";
 import VeillePage from "./pages/VeillePage";
 import ContactPage from "./pages/ContactPage";
+import GLPIPage from "./pages/GLPIPage";
+import SSHPage from "./pages/SSHPage";
 
 function App() {
   return (
@@ -16,6 +18,8 @@ function App() {
         <Route path="/cv" element={<CVPage />} />
         <Route path="/e5" element={<E5Page />} />
         <Route path="/e6" element={<E6Page />} />
+        <Route path="/e6/glpi" element={<GLPIPage />} />
+        <Route path="/e6/ssh" element={<SSHPage />} />
         <Route path="/veille" element={<VeillePage />} />
         <Route path="/contact" element={<ContactPage />} />
       </Routes>
