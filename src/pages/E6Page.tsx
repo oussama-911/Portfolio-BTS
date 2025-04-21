@@ -49,6 +49,12 @@ const E6Page: React.FC = () => {
             >
               Voir la documentation technique
             </Link>
+            <Link
+              to="/e6/glpi/pres"
+              className="px-3 py-1.5 text-sm bg-gray-800 text-white rounded hover:bg-gray-900 transition"
+            >
+              Voir la présentation
+            </Link>
           </div>
 
           <div className="h-[600px] border rounded-lg overflow-hidden flex flex-col">
@@ -139,6 +145,12 @@ const E6Page: React.FC = () => {
               className="px-3 py-1.5 text-sm bg-gray-800 text-white rounded hover:bg-gray-900 transition"
             >
               Voir la documentation technique
+            </Link>
+            <Link
+              to="/e6/ssh/pres"
+              className="px-3 py-1.5 text-sm bg-gray-800 text-white rounded hover:bg-gray-900 transition"
+            >
+              Voir la présentation
             </Link>
           </div>
 

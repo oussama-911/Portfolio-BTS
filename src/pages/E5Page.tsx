@@ -80,8 +80,8 @@ const E5Page: React.FC = () => {
   ];
 
   return (
-    <div className="container mx-auto px-4 py-8">
-      <h2 className="text-3xl font-bold text-gray-800 mb-6">
+    <div className="container mx-auto px-4 py-8" style={{ marginTop: "72px" }}>
+      <h2 className="text-3xl font-bold text-gray-800 mb-6 font-merriweather">
         Épreuve E5
       </h2>
       <div className="grid gap-6">
