@@ -5,7 +5,7 @@ function GLPIPres() {
           className="w-full h-full object-cover"
           controls
         >
-          <source src="/video/documentation-technique-de-glpi.mp4" type="video/mp4" />
+          <source src="/video/GLPIdoc.mp4" type="video/mp4" />
           Ton navigateur ne supporte pas la lecture vidéo.
         </video>
       </div>
