@@ -1,0 +1,439 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:media="http://search.yahoo.com/mrss/">
+	<channel>
+		<title>Artificial Intelligence News -- ScienceDaily</title>
+		<link>https://www.sciencedaily.com/news/computers_math/artificial_intelligence/</link>
+		<description>Artificial Intelligence News. Everything on AI including futuristic robots with artificial intelligence, computer models of human intelligence and more.</description>
+		<language>en-us</language>
+		<pubDate>Mon, 28 Apr 2025 22:35:02 EDT</pubDate>
+		<lastBuildDate>Mon, 28 Apr 2025 22:35:02 EDT</lastBuildDate>
+		<ttl>60</ttl>
+		<image>
+			<title>Artificial Intelligence News -- ScienceDaily</title>
+			<url>https://www.sciencedaily.com/images/scidaily-logo-rss.png</url>
+			<link>https://www.sciencedaily.com/news/computers_math/artificial_intelligence/</link>
+			<description>For more science news, visit ScienceDaily.</description>
+		</image>
+		<atom:link xmlns:atom="http://www.w3.org/2005/Atom" rel="self" href="https://www.sciencedaily.com/rss/computers_math/artificial_intelligence.xml" type="application/rss+xml" />
+		<item>
+			<title>Cutting the complexity from digital carpentry</title>
+			<link>https://www.sciencedaily.com/releases/2025/04/250425113342.htm</link>
+			<description>Many products in the modern world are in some way fabricated using computer numerical control (CNC) machines, which use computers to automate machine operations in manufacturing. While simple in concept, the ways to instruct these machines is in reality often complex. A team of researchers has devised a system to demonstrate how to mitigate some of this complexity.</description>
+			<pubDate>Fri, 25 Apr 2025 11:33:42 EDT</pubDate>
+			<guid isPermaLink="true">https://www.sciencedaily.com/releases/2025/04/250425113342.htm</guid>
+		</item>
+		<item>
+			<title>Awkward. Humans are still better than AI at reading the room</title>
+			<link>https://www.sciencedaily.com/releases/2025/04/250424165649.htm</link>
+			<description>Humans are better than current AI models at interpreting social interactions and understanding social dynamics in moving scenes. Researchers believe this is because AI neural networks were inspired by the infrastructure of the part of the brain that processes static images, which is different from the area of the brain that processes dynamic social scenes.</description>
+			<pubDate>Thu, 24 Apr 2025 16:56:49 EDT</pubDate>
+			<guid isPermaLink="true">https://www.sciencedaily.com/releases/2025/04/250424165649.htm</guid>
+		</item>
+		<item>
+			<title>Making AI-generated code more accurate in any language</title>
+			<link>https://www.sciencedaily.com/releases/2025/04/250424121658.htm</link>
+			<description>Researchers developed a more efficient way to control the outputs of a large language model, guiding it to generate text that adheres to a certain structure, like a programming language, and remains error free.</description>
+			<pubDate>Thu, 24 Apr 2025 12:16:58 EDT</pubDate>
+			<guid isPermaLink="true">https://www.sciencedaily.com/releases/2025/04/250424121658.htm</guid>
+		</item>
+		<item>
+			<title>Engineering a robot that can jump 10 feet high -- without legs</title>
+			<link>https://www.sciencedaily.com/releases/2025/04/250423164027.htm</link>
+			<description>Inspired by the movements of a tiny parasitic worm, engineers have created a 5-inch soft robot that can jump as high as a basketball hoop. Their device, a silicone rod with a carbon-fiber spine, can leap 10 feet high even though it doesn&#039;t have legs. The researchers made it after watching high-speed video of nematodes pinching themselves into odd shapes to fling themselves forward and backward.</description>
+			<pubDate>Wed, 23 Apr 2025 16:40:27 EDT</pubDate>
+			<guid isPermaLink="true">https://www.sciencedaily.com/releases/2025/04/250423164027.htm</guid>
+		</item>
+		<item>
+			<title>Robot see, robot do: System learns after watching how-to videos</title>
+			<link>https://www.sciencedaily.com/releases/2025/04/250422155938.htm</link>
+			<description>Researchers have developed a new robotic framework powered by artificial intelligence -- called RHyME (Retrieval for Hybrid Imitation under Mismatched Execution) -- that allows robots to learn tasks by watching a single how-to video.</description>
+			<pubDate>Tue, 22 Apr 2025 15:59:38 EDT</pubDate>
+			<guid isPermaLink="true">https://www.sciencedaily.com/releases/2025/04/250422155938.htm</guid>
+		</item>
+		<item>
+			<title>Brain-inspired AI breakthrough: Making computers see more like humans</title>
+			<link>https://www.sciencedaily.com/releases/2025/04/250422131924.htm</link>
+			<description>Researchers have developed a new artificial intelligence (AI) technique that brings machine vision closer to how the human brain processes images. Called Lp-Convolution, this method improves the accuracy and efficiency of image recognition systems while reducing the computational burden of existing AI models.</description>
+			<pubDate>Tue, 22 Apr 2025 13:19:24 EDT</pubDate>
+			<guid isPermaLink="true">https://www.sciencedaily.com/releases/2025/04/250422131924.htm</guid>
+		</item>
+		<item>
+			<title>AI tool grounded in evidence-based medicine outperformed other AI tools -- and most doctors- on USMLE exams</title>
+			<link>https://www.sciencedaily.com/releases/2025/04/250422131218.htm</link>
+			<description>A powerful clinical artificial intelligence tool developed by biomedical informatics researchers has demonstrated remarkable accuracy on all three parts of the United States Medical Licensing Exam (Step exams), according to a new article.</description>
+			<pubDate>Tue, 22 Apr 2025 13:12:18 EDT</pubDate>
+			<guid isPermaLink="true">https://www.sciencedaily.com/releases/2025/04/250422131218.htm</guid>
+		</item>
+		<item>
+			<title>Explainable AI for ship navigation raises trust, decreases human error</title>
+			<link>https://www.sciencedaily.com/releases/2025/04/250415144007.htm</link>
+			<description>A team has developed an explainable AI model for automatic collision avoidance between ships.</description>
+			<pubDate>Tue, 15 Apr 2025 14:40:07 EDT</pubDate>
+			<guid isPermaLink="true">https://www.sciencedaily.com/releases/2025/04/250415144007.htm</guid>
+		</item>
+		<item>
+			<title>AI tool to better assess Parkinson&#039;s disease, other movement disorders</title>
+			<link>https://www.sciencedaily.com/releases/2025/04/250414134922.htm</link>
+			<description>A groundbreaking open-source computer program uses artificial intelligence to analyze videos of patients with Parkinson&#039;s disease and other movement disorders. The tool, called VisionMD, helps doctors more accurately monitor subtle motor changes, improving patient care and advancing clinical research.</description>
+			<pubDate>Mon, 14 Apr 2025 13:49:22 EDT</pubDate>
+			<guid isPermaLink="true">https://www.sciencedaily.com/releases/2025/04/250414134922.htm</guid>
+		</item>
+		<item>
+			<title>A new robotic gripper made of measuring tape is sizing up fruit and veggie picking</title>
+			<link>https://www.sciencedaily.com/releases/2025/04/250409154638.htm</link>
+			<description>It&#039;s a game a lot of us played as children -- and maybe even later in life: unspooling measuring tape to see how far it would extend before bending. But to engineer, this game was an inspiration, suggesting that measuring tape could become a great material for a robotic gripper. The grippers would be a particularly good fit for agriculture applications, as their extremities are soft enough to grab fragile fruits and vegetables, researchers wrote. The devices are also low-cost and safe around humans.</description>
+			<pubDate>Wed, 09 Apr 2025 15:46:38 EDT</pubDate>
+			<guid isPermaLink="true">https://www.sciencedaily.com/releases/2025/04/250409154638.htm</guid>
+		</item>
+		<item>
+			<title>Hopping gives this tiny robot a leg up</title>
+			<link>https://www.sciencedaily.com/releases/2025/04/250409154610.htm</link>
+			<description>A hopping, insect-sized robot can jump over gaps or obstacles, traverse rough, slippery, or slanted surfaces, and perform aerial acrobatic maneuvers, while using a fraction of the energy required for flying microbots.</description>
+			<pubDate>Wed, 09 Apr 2025 15:46:10 EDT</pubDate>
+			<guid isPermaLink="true">https://www.sciencedaily.com/releases/2025/04/250409154610.htm</guid>
+		</item>
+		<item>
+			<title>3D-printed open-source robot offers accessible solution for materials synthesis</title>
+			<link>https://www.sciencedaily.com/releases/2025/04/250409115256.htm</link>
+			<description>FLUID, an open-source, 3D-printed robot, offers an affordable and customizable solution for automated material synthesis, making advanced research accessible to more scientists.</description>
+			<pubDate>Wed, 09 Apr 2025 11:52:56 EDT</pubDate>
+			<guid isPermaLink="true">https://www.sciencedaily.com/releases/2025/04/250409115256.htm</guid>
+		</item>
+		<item>
+			<title>Engineers bring sign language to &#039;life&#039; using AI to translate in real-time</title>
+			<link>https://www.sciencedaily.com/releases/2025/04/250409114945.htm</link>
+			<description>American Sign Language (ASL) recognition systems often struggle with accuracy due to similar gestures, poor image quality and inconsistent lighting. To address this, researchers developed a system that translates gestures into text with 98.2% accuracy, operating in real time under varying conditions. Using a standard webcam and advanced tracking, it offers a scalable solution for real-world use, with MediaPipe tracking 21 keypoints on each hand and YOLOv11 classifying ASL letters precisely.</description>
+			<pubDate>Wed, 09 Apr 2025 11:49:45 EDT</pubDate>
+			<guid isPermaLink="true">https://www.sciencedaily.com/releases/2025/04/250409114945.htm</guid>
+		</item>
+		<item>
+			<title>Tiny, soft robot flexes its potential as a life saver</title>
+			<link>https://www.sciencedaily.com/releases/2025/04/250408121334.htm</link>
+			<description>A tiny, soft, flexible robot that can crawl through earthquake rubble to find trapped victims or travel inside the human body to deliver medicine may seem like science fiction, but an international team is pioneering such adaptable robots by integrating flexible electronics with magnetically controlled motion.</description>
+			<pubDate>Tue, 08 Apr 2025 12:13:34 EDT</pubDate>
+			<guid isPermaLink="true">https://www.sciencedaily.com/releases/2025/04/250408121334.htm</guid>
+		</item>
+		<item>
+			<title>Nurture more important than nature for robotic hand</title>
+			<link>https://www.sciencedaily.com/releases/2025/04/250403183134.htm</link>
+			<description>How does a robotic arm or a prosthetic hand learn a complex task like grasping and rotating a ball? Researchers address the classic &#039;nature versus nurture&#039; question. The research demonstrates that the sequence of learning, also known as the &#039;curriculum,&#039; is critical for learning to occur. In fact, the researchers note that if the curriculum takes place in a particular sequence, a simulated robotic hand can learn to manipulate with incomplete or even absent tactile sensation.</description>
+			<pubDate>Thu, 03 Apr 2025 18:31:34 EDT</pubDate>
+			<guid isPermaLink="true">https://www.sciencedaily.com/releases/2025/04/250403183134.htm</guid>
+		</item>
+		<item>
+			<title>A lighter, smarter magnetoreceptive electronic skin</title>
+			<link>https://www.sciencedaily.com/releases/2025/03/250327141727.htm</link>
+			<description>Imagine navigating a virtual reality with contact lenses or operating your smartphone under water: This and more could soon be a reality thanks to innovative e-skins. A research team has developed an electronic skin that detects and precisely tracks magnetic fields with a single global sensor. This artificial skin is not only light, transparent and permeable, but also mimics the interactions of real skin and the brain.</description>
+			<pubDate>Thu, 27 Mar 2025 14:17:27 EDT</pubDate>
+			<guid isPermaLink="true">https://www.sciencedaily.com/releases/2025/03/250327141727.htm</guid>
+		</item>
+		<item>
+			<title>Philosophy: Cultural differences in exploitation of artificial agents</title>
+			<link>https://www.sciencedaily.com/releases/2025/03/250326123312.htm</link>
+			<description>A new study shows that people in Japan treat robots and AI agents more respectfully than people in Western societies.</description>
+			<pubDate>Wed, 26 Mar 2025 12:33:12 EDT</pubDate>
+			<guid isPermaLink="true">https://www.sciencedaily.com/releases/2025/03/250326123312.htm</guid>
+		</item>
+		<item>
+			<title>These electronics-free robots can walk right off the 3D-printer</title>
+			<link>https://www.sciencedaily.com/releases/2025/03/250325115131.htm</link>
+			<description>This a robot can walk, without electronics, and only with the addition of a cartridge of compressed gas, right off the 3D-printer. It can also be printed in one go, from one material.</description>
+			<pubDate>Tue, 25 Mar 2025 11:51:31 EDT</pubDate>
+			<guid isPermaLink="true">https://www.sciencedaily.com/releases/2025/03/250325115131.htm</guid>
+		</item>
+		<item>
+			<title>Squirrel-inspired leaping robot can stick a landing on a branch</title>
+			<link>https://www.sciencedaily.com/releases/2025/03/250319142850.htm</link>
+			<description>A leaping robot could have application in search and rescue, construction, even forest monitoring. But how do you design a robot to stick a landing on a branch or pipe? Biologists worked with robot designers to discover how squirrels do it, and used what they learned to design a one-legged robot with the balancing ability and leg biomechanics to correct for over- and undershooting and land successfully on a narrow perch.</description>
+			<pubDate>Wed, 19 Mar 2025 14:28:50 EDT</pubDate>
+			<guid isPermaLink="true">https://www.sciencedaily.com/releases/2025/03/250319142850.htm</guid>
+		</item>
+		<item>
+			<title>Coffee-making robot breaks new ground for AI machines</title>
+			<link>https://www.sciencedaily.com/releases/2025/03/250318204108.htm</link>
+			<description>An AI-powered robot that can prepare cups of coffee in a busy kitchen could usher in the next generation of intelligent machines, a study suggests.</description>
+			<pubDate>Tue, 18 Mar 2025 20:41:08 EDT</pubDate>
+			<guid isPermaLink="true">https://www.sciencedaily.com/releases/2025/03/250318204108.htm</guid>
+		</item>
+		<item>
+			<title>&#039;Democratizing chemical analysis&#039;:Chemists use machine learning and robotics to identify chemical compositions from images</title>
+			<link>https://www.sciencedaily.com/releases/2025/03/250318175009.htm</link>
+			<description>Chemists have created a machine learning tool that can identify the chemical composition of dried salt solutions from an image with 99% accuracy. By using robotics to prepare thousands of samples and artificial intelligence to analyze their data, they created a simple, inexpensive tool that could expand possibilities for performing chemical analysis.</description>
+			<pubDate>Tue, 18 Mar 2025 17:50:09 EDT</pubDate>
+			<guid isPermaLink="true">https://www.sciencedaily.com/releases/2025/03/250318175009.htm</guid>
+		</item>
+		<item>
+			<title>Revolutionary blueprint to fuse wireless technologies and AI</title>
+			<link>https://www.sciencedaily.com/releases/2025/03/250318140847.htm</link>
+			<description>Virginia Tech researchers say a true revolution in wireless technologies is only possible through endowing the system with the next generation of artificial intelligence (AI) that can think, imagine, and plan akin to humans. Doing so will allow networks to break free from traditional enablers, deliver unprecedented quality, and usher in a new phase of the AI evolution.</description>
+			<pubDate>Tue, 18 Mar 2025 14:08:47 EDT</pubDate>
+			<guid isPermaLink="true">https://www.sciencedaily.com/releases/2025/03/250318140847.htm</guid>
+		</item>
+		<item>
+			<title>Artificial muscle flexes in multiple directions, offering a path to soft, wiggly robots</title>
+			<link>https://www.sciencedaily.com/releases/2025/03/250317163528.htm</link>
+			<description>Engineers developed a method to grow artificial muscle tissue that twitches and flexes in multiple, coordinated directions. These tissues could be useful for building &#039;biohybrid&#039; robots powered by soft, artificially grown muscle fibers.</description>
+			<pubDate>Mon, 17 Mar 2025 16:35:28 EDT</pubDate>
+			<guid isPermaLink="true">https://www.sciencedaily.com/releases/2025/03/250317163528.htm</guid>
+		</item>
+		<item>
+			<title>Paralyzed man moves robotic arm with his thoughts</title>
+			<link>https://www.sciencedaily.com/releases/2025/03/250306153135.htm</link>
+			<description>Researchers have enabled a man who is paralyzed to control a robotic arm through a device that relays signals from his brain to a computer. He was able to grasp, move and drop objects just by imagining himself performing the actions.</description>
+			<pubDate>Thu, 06 Mar 2025 15:31:35 EST</pubDate>
+			<guid isPermaLink="true">https://www.sciencedaily.com/releases/2025/03/250306153135.htm</guid>
+		</item>
+		<item>
+			<title>Smart, energy-efficient robot grippers cut production costs</title>
+			<link>https://www.sciencedaily.com/releases/2025/03/250306123304.htm</link>
+			<description>Energy remains a significant factor in industrial production processes. High levels of energy consumption make production more expensive and exacerbate the climate crisis. A new type of robot technology needs 90% less electricity than conventional systems. The technology uses lightweight, shape memory materials to construct novel, non-pneumatic, industrial gripper systems that function without the need for additional sensors.</description>
+			<pubDate>Thu, 06 Mar 2025 12:33:04 EST</pubDate>
+			<guid isPermaLink="true">https://www.sciencedaily.com/releases/2025/03/250306123304.htm</guid>
+		</item>
+		<item>
+			<title>Artificial muscles for tremor suppression</title>
+			<link>https://www.sciencedaily.com/releases/2025/03/250306120744.htm</link>
+			<description>Scientists have developed a biorobotic arm that can mirror human tremors, such as those experienced by individuals that live with Parkinson&#039;s disease. Artificial muscles on either side of the forearm contract and relax to suppress the involuntary shaking of the wrist and hand. The researchers see their biorobotic arm not only as a platform for other scientists in the field to test new ideas in exoskeleton technology. The arm also serves as a test bed to see how well artificial muscles known as HASELs can one day become the building blocks of wearable devices. The vision is to one day develop a sleeve that tremor patients can comfortably wear to be able to better cope with everyday tasks such as holding a cup.</description>
+			<pubDate>Thu, 06 Mar 2025 12:07:44 EST</pubDate>
+			<guid isPermaLink="true">https://www.sciencedaily.com/releases/2025/03/250306120744.htm</guid>
+		</item>
+		<item>
+			<title>Are robotic hernia repairs still in the &#039;learning curve&#039; phase?</title>
+			<link>https://www.sciencedaily.com/releases/2025/03/250305172232.htm</link>
+			<description>Cutting edge technology may come with downsides.</description>
+			<pubDate>Wed, 05 Mar 2025 17:22:32 EST</pubDate>
+			<guid isPermaLink="true">https://www.sciencedaily.com/releases/2025/03/250305172232.htm</guid>
+		</item>
+		<item>
+			<title>My compliments to the chef: Researcher studies robots in the kitchen</title>
+			<link>https://www.sciencedaily.com/releases/2025/03/250305164620.htm</link>
+			<description>Walking into your favorite restaurant and seeing a robot chef in the kitchen may seem far-fetched, but new research suggests that bots could be a solution to persistent labor shortages in the industry.</description>
+			<pubDate>Wed, 05 Mar 2025 16:46:20 EST</pubDate>
+			<guid isPermaLink="true">https://www.sciencedaily.com/releases/2025/03/250305164620.htm</guid>
+		</item>
+		<item>
+			<title>Feeling is believing: Bionic hand &#039;knows&#039; what it&#039;s touching, grasps like a human</title>
+			<link>https://www.sciencedaily.com/releases/2025/03/250305164326.htm</link>
+			<description>Engineers have developed a pioneering prosthetic hand that can grip plush toys, water bottles, and other everyday objects like a human, carefully conforming and adjusting its grasp to avoid damaging or mishandling whatever it holds.</description>
+			<pubDate>Wed, 05 Mar 2025 16:43:26 EST</pubDate>
+			<guid isPermaLink="true">https://www.sciencedaily.com/releases/2025/03/250305164326.htm</guid>
+		</item>
+		<item>
+			<title>New computer vision system can guide specialty crops monitoring</title>
+			<link>https://www.sciencedaily.com/releases/2025/03/250304164416.htm</link>
+			<description>Soilless growing systems inside greenhouses, known as controlled environment agriculture, promise to advance the year-round production of high-quality specialty crops, according to an interdisciplinary research team. But to be competitive and sustainable, this advanced farming method will require the development and implementation of precision agriculture techniques. To meet that demand, the team developed an automated crop-monitoring system capable of providing continuous and frequent data about plant growth and needs, allowing for informed crop management.</description>
+			<pubDate>Tue, 04 Mar 2025 16:44:16 EST</pubDate>
+			<guid isPermaLink="true">https://www.sciencedaily.com/releases/2025/03/250304164416.htm</guid>
+		</item>
+		<item>
+			<title>Study shines headlights on consumer driverless vehicle safety deficiencies</title>
+			<link>https://www.sciencedaily.com/releases/2025/03/250304143529.htm</link>
+			<description>Researchers have demonstrated that multicolored stickers applied to stop or speed limit signs on the roadside can &#039;confuse&#039; self-driving vehicles, causing unpredictable and possibly hazardous operations.</description>
+			<pubDate>Tue, 04 Mar 2025 14:35:29 EST</pubDate>
+			<guid isPermaLink="true">https://www.sciencedaily.com/releases/2025/03/250304143529.htm</guid>
+		</item>
+		<item>
+			<title>Researchers unveil neuromorphic exposure control system to improve machine vision in extreme lighting environments</title>
+			<link>https://www.sciencedaily.com/releases/2025/03/250304114333.htm</link>
+			<description>A research team has recently developed a groundbreaking neuromorphic exposure control (NEC) system that revolutionizes machine vision under extreme lighting variations. This biologically inspired system mimics human peripheral vision to achieve unprecedented speed and robustness in dynamic perception environments.</description>
+			<pubDate>Tue, 04 Mar 2025 11:43:33 EST</pubDate>
+			<guid isPermaLink="true">https://www.sciencedaily.com/releases/2025/03/250304114333.htm</guid>
+		</item>
+		<item>
+			<title>A springtail-like jumping robot</title>
+			<link>https://www.sciencedaily.com/releases/2025/02/250226142549.htm</link>
+			<description>Springtails, small bugs often found crawling through leaf litter and garden soil, are expert jumpers. Inspired by these hopping hexapods, roboticists have made a walking, jumping robot that pushes the boundaries of what small robots can do. The research glimpses a future where nimble microrobots can crawl through tiny spaces, skitter across dangerous ground, and sense their environments without human intervention.</description>
+			<pubDate>Wed, 26 Feb 2025 14:25:49 EST</pubDate>
+			<guid isPermaLink="true">https://www.sciencedaily.com/releases/2025/02/250226142549.htm</guid>
+		</item>
+		<item>
+			<title>Morphing robot turns challenging terrain to its advantage</title>
+			<link>https://www.sciencedaily.com/releases/2025/02/250226142543.htm</link>
+			<description>A bioinspired robot can change shape to alter its own physical properties in response to its environment, resulting in a robust and efficient autonomous vehicle as well as a fresh approach to robotic locomotion.</description>
+			<pubDate>Wed, 26 Feb 2025 14:25:43 EST</pubDate>
+			<guid isPermaLink="true">https://www.sciencedaily.com/releases/2025/02/250226142543.htm</guid>
+		</item>
+		<item>
+			<title>Researchers create the world&#039;s smallest shooting video game using nanoscale technology</title>
+			<link>https://www.sciencedaily.com/releases/2025/02/250226142441.htm</link>
+			<description>A research team demonstrated the &#039;world&#039;s smallest shooting game,&#039; a unique nanoscale game inspired by classic arcade games. This achievement was made possible by real-time control of the force fields between nanoparticles using focused electron beams. This research has practical applications, as the manipulation of nanoscale objects could revolutionize biomedical engineering and nanotechnology.</description>
+			<pubDate>Wed, 26 Feb 2025 14:24:41 EST</pubDate>
+			<guid isPermaLink="true">https://www.sciencedaily.com/releases/2025/02/250226142441.htm</guid>
+		</item>
+		<item>
+			<title>AI generates playful, human-like games</title>
+			<link>https://www.sciencedaily.com/releases/2025/02/250226142050.htm</link>
+			<description>A team of scientists has now created a computer model that can represent and generate human-like goals by learning from how people create games. The work could lead to AI systems that better understand human intentions and more faithfully model and align with our goals. It may also lead to AI systems that can help us design more human-like games.</description>
+			<pubDate>Wed, 26 Feb 2025 14:20:50 EST</pubDate>
+			<guid isPermaLink="true">https://www.sciencedaily.com/releases/2025/02/250226142050.htm</guid>
+		</item>
+		<item>
+			<title>AI tool mimics radiologist gaze to read chest X-rays</title>
+			<link>https://www.sciencedaily.com/releases/2025/02/250225121525.htm</link>
+			<description>Most AI diagnostic tools are black boxes, but the approach allows doctors and patients to understand how the computer reached a diagnosis.</description>
+			<pubDate>Tue, 25 Feb 2025 12:15:25 EST</pubDate>
+			<guid isPermaLink="true">https://www.sciencedaily.com/releases/2025/02/250225121525.htm</guid>
+		</item>
+		<item>
+			<title>How to get a robot collective to act like a smart material</title>
+			<link>https://www.sciencedaily.com/releases/2025/02/250221171339.htm</link>
+			<description>Researchers are blurring the lines between robotics and materials, with a proof-of-concept material-like collective of robots with behaviors inspired by biology.</description>
+			<pubDate>Fri, 21 Feb 2025 17:13:39 EST</pubDate>
+			<guid isPermaLink="true">https://www.sciencedaily.com/releases/2025/02/250221171339.htm</guid>
+		</item>
+		<item>
+			<title>AI unlocks the emotional language of animals</title>
+			<link>https://www.sciencedaily.com/releases/2025/02/250221125552.htm</link>
+			<description>Groundbreaking study shows machine learning can decode emotions in seven ungulate species. A game-changer for animal welfare? Can artificial intelligence help us understand what animals feel? A pioneering study suggests the answer is yes. Researchers have successfully trained a machine-learning model to distinguish between positive and negative emotions in seven different ungulate species, including cows, pigs, and wild boars. By analyzing the acoustic patterns of their vocalizations, the model achieved an impressive accuracy of 89.49%, marking the first cross-species study to detect emotional valence using AI.</description>
+			<pubDate>Fri, 21 Feb 2025 12:55:52 EST</pubDate>
+			<guid isPermaLink="true">https://www.sciencedaily.com/releases/2025/02/250221125552.htm</guid>
+		</item>
+		<item>
+			<title>Predator robots help researchers uncover how larval zebrafish rapidly learn</title>
+			<link>https://www.sciencedaily.com/releases/2025/02/250220164357.htm</link>
+			<description>A novel system that chases larval zebrafish around an arena with predator robots is enabling scientists to understand how these days-old fish quickly learn in the real world.</description>
+			<pubDate>Thu, 20 Feb 2025 16:43:57 EST</pubDate>
+			<guid isPermaLink="true">https://www.sciencedaily.com/releases/2025/02/250220164357.htm</guid>
+		</item>
+		<item>
+			<title>A miniature swimming robot inspired by marine flatworms</title>
+			<link>https://www.sciencedaily.com/releases/2025/02/250219154625.htm</link>
+			<description>Engineers have developed a versatile swimming robot that nimbly navigates cluttered water surfaces. Inspired by marine flatworms, the innovative device offers new possibilities for environmental monitoring and ecological research.</description>
+			<pubDate>Wed, 19 Feb 2025 15:46:25 EST</pubDate>
+			<guid isPermaLink="true">https://www.sciencedaily.com/releases/2025/02/250219154625.htm</guid>
+		</item>
+		<item>
+			<title>Like human brains, large language models reason about diverse data in a general way</title>
+			<link>https://www.sciencedaily.com/releases/2025/02/250219121241.htm</link>
+			<description>Researchers find large language models process diverse types of data, like different languages, audio inputs, images, etc., similarly to how humans reason about complex problems. Like humans, LLMs integrate data inputs across modalities in a central hub that processes data in an input-type-agnostic fashion.</description>
+			<pubDate>Wed, 19 Feb 2025 12:12:41 EST</pubDate>
+			<guid isPermaLink="true">https://www.sciencedaily.com/releases/2025/02/250219121241.htm</guid>
+		</item>
+		<item>
+			<title>Groundbreaking study reveals how topology drives complexity in brain, climate, and AI</title>
+			<link>https://www.sciencedaily.com/releases/2025/02/250219111127.htm</link>
+			<description>Researchers have unveiled a transformative framework for understanding complex systems. This pioneering study establishes the new field of higher-order topological dynamics, revealing how the hidden geometry of networks shapes everything from brain activity to the climate and artificial intelligence (AI).</description>
+			<pubDate>Wed, 19 Feb 2025 11:11:27 EST</pubDate>
+			<guid isPermaLink="true">https://www.sciencedaily.com/releases/2025/02/250219111127.htm</guid>
+		</item>
+		<item>
+			<title>A robust and adaptive controller for ballbots</title>
+			<link>https://www.sciencedaily.com/releases/2025/02/250219105827.htm</link>
+			<description>Ballbots are versatile robotic systems with the ability to move around in all directions. This makes it tricky to control their movement. In a recent study, a team has proposed a novel proportional integral derivative controller that, in combination with radial basis function neural network, robustly controls ballbot motion. This technology is expected to find applications in service robots, assistive robots, and delivery robots.</description>
+			<pubDate>Wed, 19 Feb 2025 10:58:27 EST</pubDate>
+			<guid isPermaLink="true">https://www.sciencedaily.com/releases/2025/02/250219105827.htm</guid>
+		</item>
+		<item>
+			<title>Combining millions of years of evolution with tech wizardry: The cyborg cockroach</title>
+			<link>https://www.sciencedaily.com/releases/2025/02/250213144629.htm</link>
+			<description>A research team has developed two new autonomous navigation systems for cyborg insects to better navigate unknown, complex environments. The algorithms utilized only simple circuits that leveraged natural insect behaviors, like wall-following and climbing, to navigate challenging terrain, such as sandy, rock-strewn surfaces. For all difficulties of terrain tested, the cyborg insects were able to reach their target destination, demonstrating the potential of cyborg insects for surveillance, disaster-site exploration, and more.</description>
+			<pubDate>Thu, 13 Feb 2025 14:46:29 EST</pubDate>
+			<guid isPermaLink="true">https://www.sciencedaily.com/releases/2025/02/250213144629.htm</guid>
+		</item>
+		<item>
+			<title>Truly autonomous AI is on the horizon</title>
+			<link>https://www.sciencedaily.com/releases/2025/02/250210231820.htm</link>
+			<description>Researchers have developed a new AI algorithm, called Torque Clustering, that significantly improves how AI systems independently learn and uncover patterns in data, without human guidance.</description>
+			<pubDate>Mon, 10 Feb 2025 23:18:20 EST</pubDate>
+			<guid isPermaLink="true">https://www.sciencedaily.com/releases/2025/02/250210231820.htm</guid>
+		</item>
+		<item>
+			<title>Physician&#039;s medical decisions benefit from chatbot, study suggests</title>
+			<link>https://www.sciencedaily.com/releases/2025/02/250210133011.htm</link>
+			<description>A study showed that chatbots alone outperformed doctors when making nuanced clinical decisions, but when supported by artificial intelligence, doctors performed as well as the chatbots.</description>
+			<pubDate>Mon, 10 Feb 2025 13:30:11 EST</pubDate>
+			<guid isPermaLink="true">https://www.sciencedaily.com/releases/2025/02/250210133011.htm</guid>
+		</item>
+		<item>
+			<title>Scientists enhance smart home security with AIoT and WiFi</title>
+			<link>https://www.sciencedaily.com/releases/2025/02/250210132542.htm</link>
+			<description>Artificial Intelligence of Things (AIoT) is becoming immensely popular because of its widespread applications. In a groundbreaking study, researchers present a new AIoT framework called MSF-Net for accurately recognizing human activities using WiFi signals. The framework utilizes a novel approach that combines different signal processing techniques and a deep learning architecture to overcome challenges like environmental interference and achieve high recognition accuracy.</description>
+			<pubDate>Mon, 10 Feb 2025 13:25:42 EST</pubDate>
+			<guid isPermaLink="true">https://www.sciencedaily.com/releases/2025/02/250210132542.htm</guid>
+		</item>
+		<item>
+			<title>User-friendly system can help developers build more efficient simulations and AI models</title>
+			<link>https://www.sciencedaily.com/releases/2025/02/250203142738.htm</link>
+			<description>Researchers developed an automated system to help programmers increase the efficiency of their deep learning algorithms by simultaneously leveraging two types of redundancy in complex data structures: sparsity and symmetry.</description>
+			<pubDate>Mon, 03 Feb 2025 14:27:38 EST</pubDate>
+			<guid isPermaLink="true">https://www.sciencedaily.com/releases/2025/02/250203142738.htm</guid>
+		</item>
+		<item>
+			<title>New training approach could help AI agents perform better in uncertain conditions</title>
+			<link>https://www.sciencedaily.com/releases/2025/01/250129162714.htm</link>
+			<description>AI agents trained in simulations that differ from the environments where they are deployed sometimes perform better than agents trained and deployed in the same environment, research shows.</description>
+			<pubDate>Wed, 29 Jan 2025 16:27:14 EST</pubDate>
+			<guid isPermaLink="true">https://www.sciencedaily.com/releases/2025/01/250129162714.htm</guid>
+		</item>
+		<item>
+			<title>Towards a new generation of human-inspired language models</title>
+			<link>https://www.sciencedaily.com/releases/2025/01/250128124300.htm</link>
+			<description>Can a computer learn a language the way a child does? A recent study sheds new light on this question. The researchers advocate for a fundamental revision of how artificial intelligence acquires and processes language.</description>
+			<pubDate>Tue, 28 Jan 2025 12:43:00 EST</pubDate>
+			<guid isPermaLink="true">https://www.sciencedaily.com/releases/2025/01/250128124300.htm</guid>
+		</item>
+		<item>
+			<title>&#039;Embodied energy&#039; powers modular worm, jellyfish robots</title>
+			<link>https://www.sciencedaily.com/releases/2025/01/250127162040.htm</link>
+			<description>In the same way that terrestrial life evolved from ocean swimmers to land walkers, soft robots are progressing, too, thanks to recent research in battery development and design.</description>
+			<pubDate>Mon, 27 Jan 2025 16:20:40 EST</pubDate>
+			<guid isPermaLink="true">https://www.sciencedaily.com/releases/2025/01/250127162040.htm</guid>
+		</item>
+		<item>
+			<title>Neuromorphic semiconductor chip that learns and corrects itself?</title>
+			<link>https://www.sciencedaily.com/releases/2025/01/250121125920.htm</link>
+			<description>Scientists have developed a computing chip that can learn, correct errors, and process AI tasks.</description>
+			<pubDate>Tue, 21 Jan 2025 12:59:20 EST</pubDate>
+			<guid isPermaLink="true">https://www.sciencedaily.com/releases/2025/01/250121125920.htm</guid>
+		</item>
+		<item>
+			<title>Robots should be repurposed rather than recycled to combat rising scale of e-waste, scientists warn</title>
+			<link>https://www.sciencedaily.com/releases/2025/01/250116133814.htm</link>
+			<description>The robotics industry should be creating robots that could be reprogrammed and repurposed for other tasks once its life span is completed, researchers have advised.</description>
+			<pubDate>Thu, 16 Jan 2025 13:38:14 EST</pubDate>
+			<guid isPermaLink="true">https://www.sciencedaily.com/releases/2025/01/250116133814.htm</guid>
+		</item>
+		<item>
+			<title>Innovative 6D pose dataset sets new standard for robotic grasping performance</title>
+			<link>https://www.sciencedaily.com/releases/2025/01/250116133546.htm</link>
+			<description>Researchers have developed a novel 6D pose dataset designed to improve robotic grasping accuracy and adaptability in industrial settings. The dataset, which integrates RGB and depth images, demonstrates significant potential to enhance the precision of robots performing pick-and-place tasks in dynamic environments.</description>
+			<pubDate>Thu, 16 Jan 2025 13:35:46 EST</pubDate>
+			<guid isPermaLink="true">https://www.sciencedaily.com/releases/2025/01/250116133546.htm</guid>
+		</item>
+		<item>
+			<title>This fast and agile robotic insect could someday aid in mechanical pollination</title>
+			<link>https://www.sciencedaily.com/releases/2025/01/250115165102.htm</link>
+			<description>New insect-scale microrobots can fly more than 100 times longer than previous versions. The new bots, also significantly faster and more agile, could someday be used to pollinate fruits and vegetables.</description>
+			<pubDate>Wed, 15 Jan 2025 16:51:02 EST</pubDate>
+			<guid isPermaLink="true">https://www.sciencedaily.com/releases/2025/01/250115165102.htm</guid>
+		</item>
+		<item>
+			<title>A new research program is Indigenizing artificial intelligence</title>
+			<link>https://www.sciencedaily.com/releases/2025/01/250115164916.htm</link>
+			<description>A new initiative is challenging the conversation around the direction of artificial intelligence (AI). It charges that the current trajectory is inherently biased against non-Western modes of thinking about intelligence -- especially those originating from Indigenous cultures. Abundant Intelligences is an international, multi-institutional and interdisciplinary program that seeks to rethink how we conceive of AI. The driving concept behind it is the incorporation of Indigenous knowledge systems to create an inclusive, robust concept of intelligence and intelligent action, and how that can be embedded into existing and future technologies.</description>
+			<pubDate>Wed, 15 Jan 2025 16:49:16 EST</pubDate>
+			<guid isPermaLink="true">https://www.sciencedaily.com/releases/2025/01/250115164916.htm</guid>
+		</item>
+		<item>
+			<title>Automatic speech recognition on par with humans in noisy conditions</title>
+			<link>https://www.sciencedaily.com/releases/2025/01/250114124753.htm</link>
+			<description>Are humans or machines better at recognizing speech? A new study shows that in noisy conditions, current automatic speech recognition (ASR) systems achieve remarkable accuracy and sometimes even surpass human performance. However, the systems need to be trained on an incredible amount of data, while humans acquire comparable skills in less time.</description>
+			<pubDate>Tue, 14 Jan 2025 12:47:53 EST</pubDate>
+			<guid isPermaLink="true">https://www.sciencedaily.com/releases/2025/01/250114124753.htm</guid>
+		</item>
+		<item>
+			<title>Brain-inspired nanotech points to a new era in electronics</title>
+			<link>https://www.sciencedaily.com/releases/2025/01/250109130028.htm</link>
+			<description>Imagine a future where your phone, computer or even a tiny wearable device can think and learn like the human brain -- processing information faster, smarter and using less energy. A breakthrough approach brings this vision closer to reality by electrically &#039;twisting&#039; a single nanoscale ferroelectric domain wall.</description>
+			<pubDate>Thu, 09 Jan 2025 13:00:28 EST</pubDate>
+			<guid isPermaLink="true">https://www.sciencedaily.com/releases/2025/01/250109130028.htm</guid>
+		</item>
+		<item>
+			<title>Automated method to detect common sleep disorder affecting millions</title>
+			<link>https://www.sciencedaily.com/releases/2025/01/250109125624.htm</link>
+			<description>AI-powered algorithm can analyze video recordings of clinical sleep tests and more accurately diagnose REM sleep behavior disorder.</description>
+			<pubDate>Thu, 09 Jan 2025 12:56:24 EST</pubDate>
+			<guid isPermaLink="true">https://www.sciencedaily.com/releases/2025/01/250109125624.htm</guid>
+		</item>
+	</channel>
+</rss>

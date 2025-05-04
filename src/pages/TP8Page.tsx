@@ -12,18 +12,18 @@ import "react-pdf/dist/esm/Page/TextLayer.css";
 
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
 
-const TP1Page: React.FC = () => {
+const TP8Page: React.FC = () => {
   const [page, setPage] = useState(1);
   const [totalPages, setTotalPages] = useState(0);
   const [scale, setScale] = useState(1);
 
-  const pdfPath = "/TP1.pdf";
+  const pdfPath = "/Documentation NAT.pdf";
 
   return (
     <div className="container mx-auto px-4 py-8" style={{ marginTop: "72px" }}>
       <div className="flex items-center justify-between mb-6">
         <h2 className="text-3xl font-bold text-gray-800 font-merriweather">
-          Documentation technique AD
+          TP NAT
         </h2>
         <a
           href={pdfPath}
@@ -104,4 +104,4 @@ const TP1Page: React.FC = () => {
   );
 };
 
-export default TP1Page;
+export default TP8Page;

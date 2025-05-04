@@ -20,8 +20,6 @@ import TP7Page from "./pages/TP7Page";
 import TP8Page from "./pages/TP8Page";
 import TP9Page from "./pages/TP9Page";
 import TP10Page from "./pages/TP10Page";
-import TP11Page from "./pages/TP11Page";
-import TP12Page from "./pages/TP12Page";
 
 function App() {
   return (
@@ -41,8 +39,6 @@ function App() {
         <Route path="/e5/tp8" element={<TP8Page />} />
         <Route path="/e5/tp9" element={<TP9Page />} />
         <Route path="/e5/tp10" element={<TP10Page />} />
-        <Route path="/e5/tp11" element={<TP11Page />} />
-        <Route path="/e5/tp12" element={<TP12Page />} />
         <Route path="/e6" element={<E6Page />} />
         <Route path="/e6/glpi" element={<GLPIPage />} />
         <Route path="/e6/glpi/pres" element={<GLPIPres />} />

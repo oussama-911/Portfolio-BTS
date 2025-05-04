@@ -6,14 +6,11 @@ import imgTP1 from "../assets/images/Logo-ad.png";
 import imgTP2 from "../assets/images/qu-est-ce-qu-apache.png";
 import imgTP3 from "../assets/images/logo-filtrage-acl.png";
 import imgTP4 from "../assets/images/GLPI_logo officiel.jpg";
-// import imgTP5 from "../assets/images/hsrp-logo.jpg";
 import imgTP6 from "../assets/images/lampos-logo.jpg";
 import imgTP7 from "../assets/images/nagios-xi-logo.jpeg";
 import imgTP8 from "../assets/images/nat-logo.jpg";
-// import imgTP9 from "../assets/images/ospf-rip-logo.jpg";
-import imgTP10 from "../assets/images/logo-pfsense.jpg";
-import imgTP11 from "../assets/images/vtp-logo.jpg";
-import imgTP12 from "../assets/images/logo-vlan.jpg";
+import imgTP9 from "../assets/images/logo-pfsense.jpg";
+import imgTP10 from "../assets/images/vtp-logo.jpg";
 
 const E5Page: React.FC = () => {
   const tpE5 = [
@@ -75,33 +72,20 @@ const E5Page: React.FC = () => {
       link: "/tp8",
     },
     {
-      title: "TP9 - OSPF-RIP : Configuration des protocoles de routage",
+      title: "TP9 - Pfsense : Intégration d'un routeur et pare-feu avec PfSense",
       description:
-        "Configuration des protocoles de routage OSPF et RIP pour optimiser les chemins de communication entre les réseaux.",
+        "Configuration de PfSense pour gerer les connexions et le pare-feu.",
+      image: imgTP9,
       link: "/tp9",
     },
     {
-      title:
-        "TP10 - Pfsense LDAP : Intégration d'un pare-feu avec authentification centralisée",
+      title: "TP10 - Protocole VTP : Gestion des VLANs sur switches Cisco",
       description:
-        "Configuration de PfSense avec intégration LDAP pour une authentification centralisée des utilisateurs.",
+        "Configuration du protocole VTP pour la gestion et la propagation des VLANs sur des équipements Cisco.",
       image: imgTP10,
       link: "/tp10",
     },
-    {
-      title: "TP11 - Protocole VTP : Gestion des VLANs sur switches Cisco",
-      description:
-        "Configuration du protocole VTP pour la gestion et la propagation des VLANs sur des équipements Cisco.",
-      image: imgTP11,
-      link: "/tp11",
-    },
-    {
-      title: "TP12 - VLAN : Segmentation et isolation des réseaux",
-      description:
-        "Mise en place de VLANs pour segmenter et isoler le trafic réseau pour améliorer les performances et la sécurité.",
-      image: imgTP12,
-      link: "/tp12",
-    },
+
   ];
 
   return (
