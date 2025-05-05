@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { Rss } from "lucide-react";
-import { Download } from "lucide-react";
+import { Link } from "react-router-dom";
 
 interface Item {
   link: string;
@@ -9,8 +9,6 @@ interface Item {
   description: string;
   pubDate: string;
 }
-
-const pdfPath = "/Sources_veille.pdf";
 
 const VeillePage: React.FC = () => {
   const [rssItems, setRssItems] = useState<Item[]>([]);
@@ -22,25 +20,29 @@ const VeillePage: React.FC = () => {
       setLoading(true);
       setError(null);
       try {
-        // Récupération des fichiers XML à partir du dossier public
-        const responses = await Promise.all([
-          fetch("/artificial_intelligence.xml"),
-          fetch("/cybersecurite.xml"),
-          fetch("/data-ia.xml"),
-        ]);
+        // Flux RSS dynamiques via le proxy AllOrigins
+        const rssUrls = [
+          "https://www.actuia.com/feed/",
+          "https://tpe-intelligence-artificielle.webnode.fr/rss/all.xml",
+        ];
 
-        // Vérifier si toutes les réponses sont valides
-        if (responses.some((response) => !response.ok)) {
-          throw new Error("Erreur lors du chargement de l'un des fichiers XML");
-        }
-
-        // Convertir les fichiers XML en texte brut
-        const xmlTexts = await Promise.all(
-          responses.map((response) => response.text())
+        const proxiedUrls = rssUrls.map(
+          (url) =>
+            `https://api.allorigins.win/raw?url=${encodeURIComponent(url)}`
         );
 
-        // Parser chaque fichier XML et extraire les éléments
-        const rssItemsData: Item[] = [];
+        const responses = await Promise.all(
+          proxiedUrls.map((url) => fetch(url))
+        );
+
+        if (responses.some((res) => !res.ok)) {
+          throw new Error("Un ou plusieurs flux sont inaccessibles.");
+        }
+
+        const xmlTexts = await Promise.all(responses.map((res) => res.text()));
+
+        const allItems: Item[] = [];
+
         xmlTexts.forEach((xmlText) => {
           const parser = new DOMParser();
           const xmlDoc = parser.parseFromString(xmlText, "application/xml");
@@ -48,7 +50,6 @@ const VeillePage: React.FC = () => {
 
           for (let i = 0; i < items.length; i++) {
             const item = items[i];
-
             const title =
               item.getElementsByTagName("title")[0]?.textContent || "";
             const link =
@@ -62,23 +63,20 @@ const VeillePage: React.FC = () => {
                 .getElementsByTagName("media:content")[0]
                 ?.getAttribute("url") || null;
 
-            rssItemsData.push({
-              title,
-              link,
-              description,
-              pubDate,
-              thumbnail,
-            });
+            allItems.push({ title, link, description, pubDate, thumbnail });
           }
         });
 
-        // Mise à jour de l'état avec les articles des flux
-        setRssItems(rssItemsData.slice(0, 8)); // Limité à 8 articles
-      } catch (error) {
-        console.error("Erreur lors du chargement des fichiers XML:", error);
-        setError(
-          "Erreur lors du chargement des flux RSS. Veuillez réessayer plus tard."
+        // Tri des articles par date décroissante
+        const sortedItems = allItems.sort(
+          (a, b) =>
+            new Date(b.pubDate).getTime() - new Date(a.pubDate).getTime()
         );
+
+        setRssItems(sortedItems.slice(0, 8)); // Limite à 8 articles
+      } catch (err) {
+        console.error(err);
+        setError("Erreur lors du chargement des flux RSS.");
       } finally {
         setLoading(false);
       }
@@ -104,7 +102,10 @@ const VeillePage: React.FC = () => {
             en utilisant différentes sources d'information : flux RSS,
             newsletters spécialisées, et conférences en ligne. Cette approche me
             permet de rester informé des dernières avancées et tendances dans ce
-            domaine en constante évolution.
+            domaine en constante évolution. Je consulte aussi quand j'en ai
+            l'occasion, des documents de recherche, des publications
+            scientifiques, et dans la mesure de mes connaissances et quand
+            l'accès est libre, des publications arxiv, google scholar et autres.
           </p>
         </div>
       </div>
@@ -509,16 +510,14 @@ const VeillePage: React.FC = () => {
           </div>
 
           {/* Sources */}
-          <div className="flex items-center justify-between mb-6 mt-30">
-            <a
-              href={pdfPath}
-              download
-              className="inline-flex items-center gap-2 bg-blue-600 hover:bg-blue-700 text-white text-sm font-medium px-4 py-2 rounded-lg transition"
-            >
-              <Download className="w-4 h-4" />
-              Télécharger le fichier des sources
-            </a>
-          </div>
+          <Link
+            to="/contact"
+            className="flex gap-2 mb-4 mt-6 font-merriweather"
+          >
+            Contactez-moi pour obtenir le fichier des sources, ou si vous avez
+            une question particuliere, sur le lexique utilisé. Je vous ferai
+            parvenir une documentation précise pour la technique.
+          </Link>
         </div>
       </div>
     </div>

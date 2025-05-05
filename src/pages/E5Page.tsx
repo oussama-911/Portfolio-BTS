@@ -12,6 +12,8 @@ import imgTP8 from "../assets/images/nat-logo.jpg";
 import imgTP9 from "../assets/images/logo-pfsense.jpg";
 import imgTP10 from "../assets/images/vtp-logo.jpg";
 
+const synthèse = "/Tableau de synthèse 2025 BROURI Oussama.pdf";
+
 const E5Page: React.FC = () => {
   const tpE5 = [
     {
@@ -72,7 +74,8 @@ const E5Page: React.FC = () => {
       link: "/tp8",
     },
     {
-      title: "TP9 - Pfsense : Intégration d'un routeur et pare-feu avec PfSense",
+      title:
+        "TP9 - Pfsense : Intégration d'un routeur et pare-feu avec PfSense",
       description:
         "Configuration de PfSense pour gerer les connexions et le pare-feu.",
       image: imgTP9,
@@ -85,7 +88,15 @@ const E5Page: React.FC = () => {
       image: imgTP10,
       link: "/tp10",
     },
-
+  ];
+  const tpEntreprise = [
+    {
+      title:
+        "TP1 - Administration Active Directory sur la plateforme Corporate Directory",
+      description:
+        "Gestion des utilisateurs sur l’Active Directory interne de Capgemini : création, modification, activation/désactivation des comptes, gestion des dates de péremption. Utilisation d'Intune pour l'administration des postes et utilisateurs.",
+      link: "/tpe1", // tu peux créer cette route plus tard si tu veux détailler davantage
+    },
   ];
 
   return (
@@ -93,6 +104,15 @@ const E5Page: React.FC = () => {
       <h2 className="text-3xl font-bold text-gray-800 mb-6 font-merriweather">
         Épreuve E5
       </h2>
+      <h3 className="text-2xl font-bold text-gray-400 mb-6 font-merriweather">
+        TP effectués en cours
+      </h3>
+      <h4 className="mb-6 font-merriweather">
+        Plusieurs de ces TP ont été aussi fait en groupe, sur les serveurs de la
+        classe, virtualisés sur Proxmox, mais suite a des problèmes
+        d'organisation interne et sur les serveurs, seules des reproductions
+        virtuelles sont incluses dans ce portfolio.
+      </h4>
       <div className="grid gap-6">
         {tpE5.map((tp, index) => (
           <div
@@ -121,6 +141,52 @@ const E5Page: React.FC = () => {
             )}
           </div>
         ))}
+      </div>
+      <h3 className="text-2xl font-bold text-gray-400 mt-6 mb-6 font-merriweather">
+        En entreprise
+      </h3>
+      <div className="grid gap-6">
+        {tpEntreprise.map((tp, index) => (
+          <div
+            key={index}
+            className="bg-white p-6 rounded-lg shadow-sm hover:shadow-md transition-shadow flex items-center gap-6"
+          >
+            <div className="flex-1">
+              <h3 className="text-xl font-semibold text-gray-800">
+                {tp.title}
+              </h3>
+              <p className="text-gray-600 mt-2">{tp.description}</p>
+              <Link
+                to={`/e5${tp.link}`}
+                className="mt-4 flex items-center text-blue-600 hover:text-blue-800"
+              >
+                <FileText size={18} className="mr-2" />
+                Voir le détail
+              </Link>
+            </div>
+          </div>
+        ))}
+      </div>
+
+      {/* Tableau de Synthèse */}
+      <div className="bg-white p-6 rounded-lg shadow-sm hover:shadow-md transition-shadow mt-12">
+        <h3 className="text-2xl font-bold text-gray-400 mb-6 font-merriweather">
+          Tableau de Synthèse
+        </h3>
+        <p className="text-gray-600 mb-4">
+          Vous pouvez consulter et télécharger mon tableau de synthèse des
+          compétences acquises durant ma formation à l'EFREI et mon alternance à
+          Capgemini.
+        </p>
+        <div className="flex gap-2 mb-4">
+          <a
+            href={synthèse}
+            download
+            className="px-3 py-1.5 text-sm bg-blue-600 text-white rounded hover:bg-blue-700 transition"
+          >
+            Télécharger le tableau de synthèse
+          </a>
+        </div>
       </div>
     </div>
   );

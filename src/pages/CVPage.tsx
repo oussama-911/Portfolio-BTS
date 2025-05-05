@@ -58,7 +58,7 @@ const CVPage: React.FC = () => {
       ),
     },
     {
-      date: "2023",
+      date: "2020",
       titre: "Baccalauréat S",
       etablissement: "Candidat libre",
       description:
@@ -74,7 +74,8 @@ const CVPage: React.FC = () => {
     "Gestion d'utilisateurs (Active Directory)",
     "Outils ITSM (ServiceNow, GLPI)",
     "Scripting (PowerShell, Bash)",
-    "Developpement (Python, C, HTML, CSS)",
+    "Developpement (Python, C, HTML, CSS, JavaScript, Transcript)",
+    "GitHub"
   ];
 
   const competencesPersonnelles = [
